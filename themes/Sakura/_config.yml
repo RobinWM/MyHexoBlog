@@ -6,13 +6,13 @@ favicon: /images/favicon.ico
 avatar: /img/custom/avatar.jpg
 url: https://www.codersart.cn/
 description: 生活要有仪式感，认真生活!
-cdn: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6
+cdn: https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0
 pjax: 1
 # 1开启
 mathjax: 0
 
 notice: 欢迎你的到来
-lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+lazyloadImg: https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
@@ -21,7 +21,9 @@ menus:
     生活: {path: /categories/生活/, fa: fa-file-text-o },
     资源: {path: /categories/资源/, fa: fa-cloud-download },
     随想: {path: /categories/随想/, fa: fa-commenting-o },
-    转载: {path: /categories/转载/, fa: fa-book }
+    转载: {path: /categories/转载/, fa: fa-book },
+    艺术: {path: /categories/艺术/, fa: fa-book }
+
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
     书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce },
@@ -47,14 +49,14 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(1).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(2).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(3).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(4).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(5).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(6).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(7).jpg.webp
+  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(8).jpg.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
@@ -63,7 +65,7 @@ bgclass: filter-dot
 startdash:
   - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
   - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
-  - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+  - {url: /, title: 代码艺术之家, desc: 技术分享, img: /img/startdash/wangshiwu.jpg}
 
 
 
@@ -76,9 +78,8 @@ social:
   sina: {url: https://weibo.com/u/2657334007/home?wvr=5, img: /img/social/sina.png}
   wangyiyun: {url: https://music.163.com/#/user/home?id=1415574587, img: /img/social/wangyiyun.png}
   zhihu: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/zhihu.png}
-  email: {url: http://weibo.com/mashirozx?is_all=1, img: /img/social/email.svg}
-  wechat: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
-#  wechat2: {url: /#, qrcode: /img/custom/wechat.jpg, img: /img/social/wechat.png}
+  email: {url: https://weibo.com/u/2657334007/home?wvr=5, img: /img/social/email.svg}
+  wechat: {url: /#, qrcode: /img/custom/wx.jpg, img: /img/social/wechat.png}
 
 #social  url, img 移动端配置
 msocial:
@@ -87,10 +88,10 @@ msocial:
   qq: {url: https://wpa.qq.com/msgrd?v=3&uin=954655431&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
-  paypal: https://www.paypal.me/hojuncn
-  alipay: /img/custom/donate/AliPayQR.jpg
-  wechat: /img/custom/donate/WeChanQR.jpg
-  wechatSQ: /img/custom/donate/WeChanSQ.jpg
+  paypal: https://www.paypal.me/RobinWangM
+  alipay: /img/custom/donate/AliPay.png
+  wechat: /img/custom/donate/WXPay.png
+  wechatSQ: /img/custom/donate/WXPay.png
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
@@ -112,6 +113,6 @@ aplayer:
 
 # Valine
 valine: true
-v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
-v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+v_appId: WD4BEpJn9J3BP3SGI9Ue4GAc-gzGzoHsz
+v_appKey: C9PkgmAoeXogDvSgoeyp3qnI
 
