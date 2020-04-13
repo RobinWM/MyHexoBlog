@@ -82,8 +82,8 @@ backup:
   type: git
   message: backup my blog of https://RobinWM.github.io/
   repository:
-     github: https://github.com/RobinWM/MyHexoBlog.git,backup
-    # coding: https://git.coding.net/hojun/hojun.git,backup
+#    github: https://github.com/RobinWM/MyHexoBlog.github.io.git,backup
+     coding: https://e.coding.net/robinwm/MyHexoBlog.git,backup
 
 #RSS
 feed:
