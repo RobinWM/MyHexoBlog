@@ -5,10 +5,10 @@ avatar: 'https://wx1.sinaimg.cn/large/006bYVyvgy1ftand2qurdj303c03cdfv.jpg'
 authorLink: codersart.cn
 authorAbout: 一个好奇的人
 authorDesc: 一个好奇的人
-categories: 艺术
+categories: 技术
 comments: true
-date: 2020-04-16 01:24:03
-tags:
+date: 2019-11-16 01:24:03
+tags: Script
 keywords:
 description:
 photos:

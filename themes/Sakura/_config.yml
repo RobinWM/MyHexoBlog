@@ -23,13 +23,27 @@ menus:
     随想: {path: /categories/随想/, fa: fa-commenting-o },
     转载: {path: /categories/转载/, fa: fa-book },
     艺术: {path: /categories/艺术/, fa: fa-book }
-
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
+    转载: {path: /categories/转载/, fa: fa-book },
     书单: {path: /tags/阅读/, fa: fa-th-list faa-bounce },
     番组: {path: /bangumi/, fa: fa-film faa-vertical },
     歌单: {path: /music/, fa: fa-headphones },
     图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  语言: { path: javascript:;, fa: fa-archive faa-shake, submenus: {
+    Script: {path: /tags/Script/},
+    Node: {path: /tags/Nodejs/},
+    Java: {path: /tags/Java/},
+    Pyhton: {path: /tags/Pyhton/},
+    Dart: {path: /tags/Dart/},
+  } }
+  框架: { path: javascript:;, fa: fa-archive faa-shake, submenus: {
+    vue:{path: /tags/vue/},
+    ng:{path: /tags/angular/},
+    react:{path: /tags/react/},
+    Boot:{path: /tags/spring-boot/},
+    WX:{path: /tags/weixin/},
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
