@@ -1,19 +1,19 @@
-# Site
+# Site/网站
 title: 代码艺术之家
 subtitle:
 description: 技术，代码分享
-keywords:
+  keywords:前端开发,个人博客,分享,Hexo
 author: Robin
 language: zh-cn
-timezone:
+timezone: Asia/Shanghai
 
-# URL
-url: /
+# URL/网址
+url: www.codersart.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-# Directory
+# Directory/目录
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -23,7 +23,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
+# Writing/文章
 new_post_name: :title.md
 default_layout: post
 titlecase: false
@@ -35,7 +35,7 @@ relative_link: false
 future: true
 highlight:
   enable: false
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace:
 
@@ -82,8 +82,8 @@ backup:
   type: git
   message: backup my blog of https://RobinWM.github.io/
   repository:
-#    github: https://github.com/RobinWM/MyHexoBlog.github.io.git,backup
-     coding: https://e.coding.net/robinwm/MyHexoBlog.git,backup
+    #    github: https://github.com/RobinWM/MyHexoBlog.github.io.git,backup
+    coding: https://e.coding.net/robinwm/MyHexoBlog.git,backup
 
 #RSS
 feed:

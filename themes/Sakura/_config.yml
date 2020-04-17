@@ -26,7 +26,7 @@ menus:
 
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
-    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce },
+    书单: {path: /tags/阅读/, fa: fa-th-list faa-bounce },
     番组: {path: /bangumi/, fa: fa-film faa-vertical },
     歌单: {path: /music/, fa: fa-headphones },
     图集: {path: /tags/图集/, fa: fa-photo }
@@ -49,14 +49,14 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(1).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(2).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(3).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(4).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(5).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(6).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(7).jpg.webp
-  - https://cdn.jsdelivr.net/gh/honjun/cdn@2.0/img/cover/(8).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(1).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(2).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(3).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(4).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(5).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(6).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(7).jpg.webp
+  - https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.0/img/cover/(8).jpg.webp
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
@@ -64,7 +64,7 @@ bgclass: filter-dot
 # startdash url, title, desc img
 startdash:
   - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
+  - {url: http://www.github.com/RobinWM, title: Github, desc: 博主的Github主页, img: /img/startdash/bilibili.jpg}
   - {url: /, title: 代码艺术之家, desc: 技术分享, img: /img/startdash/wangshiwu.jpg}
 
 

@@ -1,11 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-author: hojun
+author: Robin
 avatar: https://wx1.sinaimg.cn/large/006bYVyvgy1ftand2qurdj303c03cdfv.jpg
-authorLink: hojun.cn
-authorAbout: 一个好奇的人
-authorDesc: 一个好奇的人
+authorLink: codersart.cn
+authorAbout: 前端开发攻城狮
+authorDesc: 一个奇怪的coder
 categories: 技术
 comments: true
 tags: 
