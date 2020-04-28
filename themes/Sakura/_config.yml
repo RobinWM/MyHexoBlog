@@ -42,7 +42,7 @@ menus:
     vue:{path: /tags/vue/},
     ng:{path: /tags/angular/},
     react:{path: /tags/react/},
-    Boot:{path: /tags/spring-boot/},
+    Boot:{path: /tags/Boot/},
     WX:{path: /tags/weixin/},
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }

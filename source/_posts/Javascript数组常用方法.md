@@ -1,5 +1,5 @@
 ---
-title: 数组的前世今生
+title: Javascript数组常用方法
 author: Robin
 avatar: 'https://wx1.sinaimg.cn/large/006bYVyvgy1ftand2qurdj303c03cdfv.jpg'
 authorLink: codersart.cn
