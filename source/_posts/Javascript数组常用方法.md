@@ -7,7 +7,7 @@ authorAbout: 一个好奇的人
 authorDesc: 一个好奇的人
 categories: 技术
 comments: true
-date: 2019-11-16 01:24:03
+date: 2019-08-18 11:25:55
 tags: Script
 keywords:
 description:
@@ -29,7 +29,8 @@ photos:
 13.reduce(): 数组中的每个值（从左到右）开始合并，最终为一个值 
 14.reduceRight(): 数组中的每个值（从右到左）开始合并，最终为一个值 
 #### 注：1.sort方法用法注意
-{% codeblock lang:javascript sort方法 %}
+
+``` JavaScript
 [10111, 1101, 111].sort()
 // [10111, 1101, 111]
  
@@ -50,22 +51,26 @@ photos:
 //   { name: "王五", age: 28  },
 //   { name: "张三", age: 30 }
 // ]
-{% endcodeblock %}
+```
+
 #### 2.some方法是只要一个成员的返回值是true，则整个some方法的返回值就是true，否则返回false。
-{% codeblock lang:javascript some方法 %}
+
+``` JavaScript
 var arr = [1, 2, 3, 4, 5];
 arr.some(function (elem, index, arr) {
   return elem >= 3;
 });
 // true
-{% endcodeblock %}
+```
+
 #### 3.every方法是所有成员的返回值都是true，整个every方法才返回true，否则返回false。
-{% codeblock lang:javascript every方法 %}
+
+``` JavaScript
 var arr = [1, 2, 3, 4, 5];
 arr.every(function (elem, index, arr) {
   return elem >= 3;
 });
 // false
-{% endcodeblock %}
+```
 
 

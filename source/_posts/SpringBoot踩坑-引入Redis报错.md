@@ -18,9 +18,9 @@ photos:
 ## 问题：Error:(6, 49) java: 程序包org.springframework.data.redis.connection不存在
 ## 解决步骤：
 #### 在pom.xml引入如下代码：
-{% codeblock lang:xml %}
+``` XML
 <dependency>
     <groupId>org.springframework.data</groupId>
     <artifactId>spring-data-redis</artifactId>
 </dependency>
-{% endcodeblock %}
+```

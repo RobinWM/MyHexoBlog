@@ -32,7 +32,9 @@ menus:
     图集: {path: /tags/图集/, fa: fa-photo }
   } }
   语言: { path: javascript:;, fa: fa-archive faa-shake, submenus: {
-    Script: {path: /tags/Script/},
+    JS: {path: /tags/JavaScript/},
+    TS: {path: /tags/TypeScript/},
+    ES: {path: /tags/ECMAScript/},
     Node: {path: /tags/Nodejs/},
     Java: {path: /tags/Java/},
     Pyhton: {path: /tags/Pyhton/},
@@ -42,18 +44,20 @@ menus:
     vue:{path: /tags/vue/},
     ng:{path: /tags/angular/},
     react:{path: /tags/react/},
+    ionic:{path: /tags/ionic/},
+    flutter:{path: /tags/flutter/},
     Boot:{path: /tags/Boot/},
     WX:{path: /tags/weixin/},
   } }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
-  关于: { path: /, fa: fa-leaf faa-wrench , submenus: {
-    我？: {path: /about/, fa: fa-meetup},
-    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
-    Lab: {path: /lab/, fa: fa-cogs },
-  } }
-  客户端: { path: /client/, fa: fa-android faa-vertical }
+  # 关于: { path: /, fa: fa-leaf faa-wrench , submenus: {
+    # 我？: {path: /about/, fa: fa-meetup},
+    # 主题: {path: /theme-sakura/, fa: iconfo/nt icon-sakura },
+    # Lab: {path: /lab/, fa: fa-cogs },
+  # } }
+  # 客户端: { path: /client/, fa: fa-android faa-vertical }
   RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
 
 
