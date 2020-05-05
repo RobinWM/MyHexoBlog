@@ -15,7 +15,7 @@ photos:
 ---
 # 一.vuex是什么
 ### &emsp;&emsp;官方解释：Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。讲真的，这个解释，大部分人都不懂，换个通俗易懂的说法：Vuex用来存储数据的状态，即数据的变化。当vue应用程序的组件结构复杂程度提高时，采用传统的方法通信将变的繁琐而且不易维护，vuex正是为了解决这个问题而出现的。下面是vuex实现数据流的示意图：
-![avatar](https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.3/img/articles/vuex.png)
+![avatar](https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.5/img/vueapp/vuex.png)
 
 接下来，我们一步步来理解其中专业名词的意义。
 

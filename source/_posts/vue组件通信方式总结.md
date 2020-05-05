@@ -15,7 +15,7 @@ photos:
 ---
 # 背景
 ### &emsp;&emsp;组件是vue最基本也是最强大的功能之一，跨组件实例的数据不能直接引用。通常来说，一个vue应用的组件的关系主要表示如下：
-![avatar](https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.3/img/articles/vue_commucation.png)
+![avatar](https://cdn.jsdelivr.net/gh/RobinWM/cdn@2.5/img/vueapp/vue_commucation.png)
 
 ### &emsp;&emsp;如图所示：A、B，B、C，B、D之间都是父子关系，C、D是兄弟关系，A和C、D是祖孙关系，当然，有可能A和D之间隔很多代。
 ### &emsp;&emsp;针对上述关系，选择对的通信方式将大大提高工作效率。本文总结了vue中可用的组件间通信方式。

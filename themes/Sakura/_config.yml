@@ -34,7 +34,7 @@ menus:
   语言: { path: javascript:;, fa: fa-archive faa-shake, submenus: {
     JS: {path: /tags/JavaScript/},
     TS: {path: /tags/TypeScript/},
-    ES: {path: /tags/ECMAScript/},
+    ES6: {path: /tags/ECMAScript/},
     Node: {path: /tags/Nodejs/},
     Java: {path: /tags/Java/},
     Pyhton: {path: /tags/Pyhton/},
