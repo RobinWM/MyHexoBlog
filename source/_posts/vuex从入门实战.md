@@ -159,7 +159,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 Vue.use(Vuex)
 const moduleA= {
-    namespaced:false,  state: {        age: 20,
+    namespaced:false,  state: { 
+        age: 20,
         name: "Robin",
         count: 0,
         tasksList: [
