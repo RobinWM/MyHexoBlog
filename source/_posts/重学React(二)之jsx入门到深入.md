@@ -7,7 +7,7 @@ authorAbout: 前端开发攻城狮
 authorDesc: 追求完美
 categories: 技术
 comments: true
-date: 2020-06-27 22:53:15
+date: 2020-02-04 21:33:46
 tags: react
 keywords:
 description:
@@ -42,7 +42,7 @@ photos:
 # 四.JSX 的使用
 
 1.jsx 中的注释；
- ``` {/* 这是一段注释 */} ```
+`{/* 这是一段注释 */}`
 
 2.JSX 嵌入变量：
 
@@ -52,8 +52,57 @@ photos:
   - 转换的方式有很多，比如 toString 方法、和空字符串拼接，String(变量)等方式；
 - 对象类型不能作为子元素（not valid as a React child）
 
-3.JSX 嵌入表达式
+  3.JSX 嵌入表达式
 
   - 运算表达式；
   - 三元运算符；
   - 执行一个函数；
+
+    4.JSX 绑定属性
+
+- 普通属性绑定：
+
+```HTML
+<h2 title={title}>我是标题</h2>
+```
+
+- 绑定 class 类：
+
+```HTML
+<div className={"contents " + (active ? "active" : "")}>我是div绑定class</div>
+```
+
+- 绑定 style 样式:
+
+```HTML
+ <div style={{color: "red", fontSize: "10px"}}>我是div绑定style</div>
+```
+
+5.JSX 绑定事件及参数传递
+
+#### 推荐使用如下方式：
+
+```HTML
+<button onClick={e => { this.btnClick4(e) }}>按钮4</button>
+```
+
+# 五.JSX 的本质
+
+1.jsx 是什么:
+
+#### 实际上，jsx仅仅只是React.createElement(component,props, ...children)函数的语法糖。<font color="red">所有的jsx最终都会被转换成React.createElement的函数调</font>
+
+2.createElement函数
+
+- 参数一：type
+ - 当前ReactElement的类型； 
+ - 如果是标签元素，那么就使用字符串表示 “div”； 
+ - 如果是组件元素，那么就直接使用组件的名称；
+
+-参数二：config 
+ - 所有jsx中的属性都在config中以对象的属性和值的形式存储 
+
+-参数三：children 
+ - 存放在标签中的内容，以children数组的方式进行存储； 
+ - 当然，如果是多个元素呢？React内部有对它们进行处理，处理的源码在下方；
+
