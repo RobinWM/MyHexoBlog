@@ -1,14 +1,14 @@
 ---
-title: Javascript数组常用方法
+title: 重学JS基础篇(四)之Arrary类型
 author: Robin
 avatar: 'https://wx1.sinaimg.cn/large/006bYVyvgy1ftand2qurdj303c03cdfv.jpg'
 authorLink: codersart.cn
-authorAbout: 一个好奇的人
-authorDesc: 一个好奇的人
+authorAbout: 前端开发攻城狮
+authorDesc: 追求完美
 categories: 技术
 comments: true
-date: 2019-08-18 11:25:55
-tags: Script
+date: 2020-07-16 18:01:37
+tags: JavaScript
 keywords:
 description:
 photos:
@@ -72,5 +72,6 @@ arr.every(function (elem, index, arr) {
 });
 // false
 ```
+
 
 

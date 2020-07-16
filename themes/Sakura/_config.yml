@@ -22,7 +22,8 @@ menus:
     资源: {path: /categories/资源/, fa: fa-cloud-download },
     随想: {path: /categories/随想/, fa: fa-commenting-o },
     转载: {path: /categories/转载/, fa: fa-book },
-    艺术: {path: /categories/艺术/, fa: fa-book }
+    艺术: {path: /categories/艺术/, fa: fa-book },
+    原理: {path: /categories/原理/, fa: fa-book }
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: {
     转载: {path: /categories/转载/, fa: fa-book },
@@ -39,6 +40,8 @@ menus:
     Java: {path: /tags/Java/},
     Pyhton: {path: /tags/Pyhton/},
     Dart: {path: /tags/Dart/},
+    H5: {path: /tags/HTML/},
+    CSS: {path: /tags/CSS/},
   } }
   框架: { path: javascript:;, fa: fa-archive faa-shake, submenus: {
     vue:{path: /tags/vue/},
