@@ -1,14 +1,13 @@
 # Site/网站
 title: 代码艺术之家
 subtitle:
-description: 技术，代码分享
-  keywords:前端开发,个人博客,分享,Hexo
+description: 技术，代码分享 keywords:前端开发,个人博客,分享,Hexo
 author: Robin
 language: zh-cn
 timezone: Asia/Shanghai
 
 # URL/网址
-url: www.codersart.cn/
+url: http://codersart.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
